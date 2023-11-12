@@ -80,7 +80,7 @@
 %age(noah, 13). %14
 %age(ava, 13). %15"
 
-/* Everyone's ages */
+% Testing above, what was used
 
 age(mary, 109).
 
@@ -116,27 +116,17 @@ age(daniel, 29).
 
 age(peter, 31).
 
-/* Mary's children */
-
 child(sarah, mary).
 
 child(tony, mary).
 
-/* Sarah's child */
-
 child(grant, sarah).
-
-/* Tony's children */
 
 child(hank, tony).
 
 child(kelsey, tony).
 
-/* Grant's child */
-
 child(jake, grant).
-
-/* Hank's children */
 
 child(joe, hank).
 
@@ -146,21 +136,13 @@ child(mike, hank).
 
 child(piper, hank).
 
-/* Kelsey's child */
-
 child(dillon, kelsey).
-
-/* Joe's children */
 
 child(justin, joe).
 
 child(christian, joe).
 
-/* Mike's children */
-
 child(taylor, mike).
-
-/* Piper's children */
 
 child(daniel, piper).
 
